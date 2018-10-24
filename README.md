@@ -11,7 +11,7 @@
 * ctor: from an array of dictionaries (array of rows; each row is a dictionary); the index is the position in array
   
 ### Combining data
-* concat(): global, combine together vertically multiple datasets (use axis = 1 to do it horizontally, like adding columns)
+* ```concat()```: global, combine together vertically multiple datasets (use axis = 1 to do it horizontally, like adding columns)
 * merge(): both global and method, it joins on any column
 * join(): method, it uses pd.merge() to join index-on-index (you save some typing in some specific cases)
 
