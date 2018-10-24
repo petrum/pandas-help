@@ -1,3 +1,5 @@
+## My Pandas summary
+
 ### Series
 * it's like a fast dictionary (or like a hashmap)
 * ctor: from an array (index is the array position)
