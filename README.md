@@ -6,7 +6,7 @@
 * ctor: from a dictionary (keys are the label)
 
 ### Dataframes
-* It's like a colection of ```Series``` sharing the same index
+* it's like a colection of ```Series``` sharing the same index
 * ctor: from a dictionary of Series (all with same index)
 * ctor: from a dictionary of arrays (dictionary of columns; keys are column names, all arrays MUST have the same size; the index is the position)
 * ctor: from an array of dictionaries (array of rows; each row is a dictionary); the index is the position in array
