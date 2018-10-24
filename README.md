@@ -1,4 +1,4 @@
-#Series
+# Series
   * it's like a fast dictionary (or like a hashmap)
   * ctor: from an array (index is the array position)
   * ctor: from two arrays with the same size (first has the values, second with labels/index)
