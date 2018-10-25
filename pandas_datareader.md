@@ -20,7 +20,7 @@ I want to convert the dictionary in a single dataframe, and add the key as a new
 (and I want to do this in a single line)
 
 
-#### Best solution: using df.assign()
+## Best solution: using df.assign()
 ```python
 pd.concat([df[s].assign(sym=s) for s in df])
 Out[202]: 
