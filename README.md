@@ -28,7 +28,7 @@
 ### Accesing data, selection
 * ```iloc[]```: integer location based indexing
 * ```loc[]```: label based indexing
-* ```ix[]```: smart indexing, label-based with integer fallback (prefer the first two explicit indexing)
+* ```ix[]```: deprecated smart indexing; label-based with integer fallback (prefer the first two explicit indexing)
 * ```at[]```: label row/col single value access
 * ```iat[]```: integer row/col single value access
 * ```where()```: method, it returns an object based on cond (df1.where(cond, df2) ~ np.where(cond, df1, df2))
