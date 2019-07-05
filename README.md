@@ -34,7 +34,7 @@
 * ```ix[]```: (deprecated) smart indexing; label-based with integer fallback (prefer the two above explicit indexing)
 * ```at[]```: label row/col single value access
 * ```iat[]```: integer row/col single value access
-* ```where()```: method, it returns an object based on cond (df1.where(cond, df2) ~ np.where(cond, df1, df2))
+* ```where()```: method, it returns an object based on cond (```df1.where(cond, df2) ~ np.where(cond, df1, df2)```)
 * ```groupby()```: method, it does the split/apply/combine
 
 
