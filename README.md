@@ -1,4 +1,6 @@
 ## My Pandas summary
+* You get Series (1D), DataFrames (2D), or Panels (+3D)
+* The name Pandas is derived from "Panel Data"
 
 ### Series
 * it's like a fast dictionary (or like a hashmap)
