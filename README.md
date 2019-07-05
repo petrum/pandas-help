@@ -1,5 +1,5 @@
 ## My Pandas summary
-* Built on top of ''numpy''
+* Built on top of ```numpy```
 * You get Series (1D), DataFrames (2D), or Panels (+3D)
 * The name Pandas is derived from "Panel Data"
 
