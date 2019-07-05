@@ -5,10 +5,10 @@
 
 ### Series
 * it's like a fast dictionary (or like a hashmap)
-* ctor: from an array (index is the array position)
+* ctor: from an array (by default the index is the position in the array)
 * ctor: from two arrays with the same size (first has the values, second with labels/index)
 * ctor: from scalar and arrays (the scalar has the value, the array has the labels/index)
-* ctor: from a dictionary (keys are the label)
+* ctor: from a dictionary (keys are the labels)
 
 ### Dataframes
 * it's like a colection of ```Series``` sharing the same index
